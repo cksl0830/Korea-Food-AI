@@ -11,7 +11,7 @@ from webdriver_manager.utils import ChromeType
 
 class getRecipeCrawler:
     def __init__(self):
-        self.url = 'https://www.10000recipe.com/'
+        self.url = 'https://www.10000recipe.com/'   
         self.nextPage = [
             '//*[@id="content"]/section/div[2]/div/div[2]/a[2]',
             '//*[@id="content"]/section/div[2]/div/div[2]/a[5]',
